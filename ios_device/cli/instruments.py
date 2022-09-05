@@ -313,7 +313,7 @@ def cmd_graphics(udid, network, format, time):
     with InstrumentsBase(udid=udid, network=network) as rpc:
         def on_callback_message(res):
             data = res.selector
-            print_json({"currentTime": str(datetime.now()), "fps": data['CoreAnimationFramesPerSecond']}, format)
+            print_json({"currentTime": str(datetime.now()), "fps": data['CoreAnimationFramesPerSecond'],"Device":data["Device Utilization %"],"Tiler":data[ 'Tiler Utilization %'],"Renderer":data['Renderer Utilization %']}, format)
 
         rpc.graphics(on_callback_message, time)
 
