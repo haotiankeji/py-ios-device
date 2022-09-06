@@ -6,7 +6,11 @@ A python based Apple instruments protocol，you can get CPU, Memory and other me
 
 
 python工程上传pip 步骤
+
 https://packaging.python.org/en/latest/flow/
+
+USBMUXD 学习
+https://zyqhi.github.io/2019/08/20/usbmuxd-protocol.html
 
 
 link: https://testerhome.com/topics/27159
