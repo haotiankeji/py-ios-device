@@ -5,6 +5,9 @@
 A python based Apple instruments protocol，you can get CPU, Memory and other metrics from real iOS devices
 
 
+python工程上传pip 步骤
+https://packaging.python.org/en/latest/flow/
+
 
 link: https://testerhome.com/topics/27159
 
